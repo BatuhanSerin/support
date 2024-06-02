@@ -35,5 +35,5 @@ public class User implements Serializable {
     private String[] roles;
     private String[] authorities;
     private boolean isActive;
-    private boolean isLocked;
+    private boolean isNotLocked;
 }
